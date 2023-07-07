@@ -1,0 +1,161 @@
+body {
+    background-image: url(https://st3.depositphotos.com/1912333/14250/i/450/depositphotos_142502785-stock-photo-conqueror-with-a-flag.jpg);
+    background-size: cover;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.bandeira {
+    height: 40vh;
+    width: 100%;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.brasil h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 5px 5px black;
+    font-size: 60px;
+    top: 60px;
+    color: yellow;
+}
+
+.exercito {
+    border-radius: 25px;
+    height: 531px;
+    padding: 15px;
+    width: 45vw;
+
+}
+
+.extras p {
+    display: inline-block;
+    vertical-align: top;
+    width: 45vw;
+    font-size: 45px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px;
+
+}
+
+.extras span {
+    display: inline-block;
+    width: 43vw;
+    font-size: 45.99px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    border-top: 25px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+
+.cancoes {
+    border-radius: 4px;
+    border: 0px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.historico {
+    border-radius: 4px;
+    border: 0px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.exercitoBrasileiro {
+    border-radius: 4px;
+    border: 0px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.aviso {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.cap {
+    height: 15vh;
+    width: 10vw;
+    gap: 10px;
+    position: absolute;
+    left: -20px;
+    top: 390px;
+}
+
+.bracoForte {
+    display: inline-block;
+    width: 95vw;
+    font-size: 45.99px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    border-top: 25px;
+    text-align: center;
+    color: gold;
+}
+
+.simbolo{
+position: absolute;
+    display: inline-block;
+    width: 80px;
+    right: 20px;
+    top: 280px;
+    left: 325px;
+}
+
+.simboloTitulo h1{
+   position: relative;
+   top: 2px;
+}
+
+a{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+

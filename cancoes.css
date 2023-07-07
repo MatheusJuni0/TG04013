@@ -1,0 +1,213 @@
+body {
+    background-image: url(https://st3.depositphotos.com/1912333/14250/i/450/depositphotos_142502785-stock-photo-conqueror-with-a-flag.jpg);
+    background-size: cover;
+    width: 98.7%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.brasil img {
+    height: 40vh;
+    width: 100%;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+.simbolo {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    right: 20px;
+    top: 290px;
+    left: 50px;
+}
+
+.title {
+    position: relative;
+    top: 2px;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    list-style: none;
+    border: 3px solid #c0c0c0;
+    border-radius: 12px;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(continencia.jpg);
+    background-size: cover;
+    background-position: 0px;
+    padding: 45px;
+    color: rgb(55, 255, 0);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 9vh;
+    text-decoration: none;
+    position: relative;
+
+
+}
+
+.hinoExercito {
+    background-image: url(exercito-brasileiro.jpg);
+    border-radius: 12px;
+    display: flex;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+    text-decoration: none;
+    font-size: 55px;
+    position: relative;
+    left: 13px;
+    cursor: pointer;
+}
+
+.cancoes {
+    border: 3px solid gray;
+    border-radius: 12px;
+    font-size: 24px;
+    display: flex;
+    gap: 75px;
+    background-size: cover;
+    padding: 25px;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-shadow: black;
+    position: relative;
+    left: 40px;
+}
+
+.cancoes2 {
+    border-radius: 12px;
+    font-size: 24px;
+    display: flex;
+    gap: 75px;
+    background-size: cover;
+    padding: 25px;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-shadow: black;
+    position: relative;
+    left: 40px;
+    right: 12px;
+}
+
+.hinoTG {
+    background-image: url(Tg\ 04-013.jpeg);
+    border-radius: 12px;
+    display: flex;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+    text-decoration: none;
+    gap: 5px;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.hinoBandeira {
+    background-image: url(bandeira\ do\ brasil.jpg);
+    border-radius: 12px;
+    display: flex;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+    text-decoration: none;
+    gap: 15px;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+
+.cancoes3 {
+    border-radius: 12px;
+    font-size: 24px;
+    border: 3px solid gray;
+    display: flex;
+    gap: 105.90px;
+    background-size: cover;
+    padding: 25px;
+    width: 1240px;
+    height: 150px;
+    display: flex;
+    text-shadow: black;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.hinoCaxias {
+    background-image: url(Luís_Alves_de_Lima_e_Silva.jpg);
+    border-radius: 12px;
+    display: flex;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    width: 30vw;
+    text-decoration: none;
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+}
+
+.hinoFibra {
+    background-image: url(Soldados-do-exercito-brasileiro-em-treinamento-militar-.jpg.webp);
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+    text-decoration: none;
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+footer a {
+    border: 0px;
+    border-radius: 12px;
+    padding: 5px;
+    background: none;
+    color: yellow;
+    position: relative;
+    top: 8px;
+    border: 2px solid gray;
+    width: 125px;
+    bottom: 10px;
+}

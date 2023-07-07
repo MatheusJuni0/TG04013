@@ -1,0 +1,59 @@
+body{
+
+    background-image: url(TG.jpg);
+    background-size: cover;
+
+}
+
+.title{
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 48px;
+color: yellow;
+
+}
+
+.informacoes{
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.bandeira {
+    height: 40vh;
+    width: 100%;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 12px;
+    padding: 5px;
+    gap: 55px;
+}
+
+.voltar{
+    font-size: 24px;
+    text-decoration: none;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5px;
+
+}

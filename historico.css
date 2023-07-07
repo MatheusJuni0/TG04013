@@ -1,0 +1,129 @@
+* {
+    border: 0px;
+}
+
+body {
+    background-image: url(TG.jpg);
+    background-size: cover;
+    width: 98.7%;
+    height: 100%;
+
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 42px;
+}
+
+.livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+    width: 1310px;
+    position: absolute;
+    height: 800px;
+    left: 30px;
+}
+
+
+.bandeira {
+    height: 40vh;
+    width: 100%;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+.paginaAnterior {
+    position: relative;
+    display: flex;
+    bottom: 200px;
+    left: 30px;
+    border-radius: 12px;
+    border: 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.proximaPagina {
+    position: relative;
+    display: flex;
+    bottom: 250px;
+    left: 1200px;
+    border-radius: 12px;
+    border: 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.voltar {
+    text-decoration: none;
+    font-size: 42px;
+    color: white;
+    border: 3px solid gray;
+    padding: 5px;
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    cursor: pointer;
+}
+
+.curiosidade2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: white;
+    position: relative;
+    top: 55px;
+}
+
+.curiosidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    top: 22px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 42px;
+    position: relative;
+}
+
+.capa {
+    position: relative;
+    width: 455px;
+    top: 30px;
+    height: 590px;
+    left: 180px;
+    border-radius: 12px;
+}
+
+.pag1 {
+    position: relative;
+    width: 450px;
+    top: 30px;
+    height: 590px;
+    left: 260px;
+    border-radius: 12px;
+}
