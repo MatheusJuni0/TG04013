@@ -5,8 +5,6 @@
 body {
     background-image: url(TG.jpg);
     background-size: cover;
-    width: 98.7%;
-    height: 100%;
 
 }
 
@@ -24,7 +22,7 @@ body {
     align-items: center;
     position: relative;
     left: 0px;
-    width: 1310px;
+    width: 1300px;
     position: absolute;
     height: 800px;
     left: 30px;
@@ -126,4 +124,117 @@ h2 {
     height: 590px;
     left: 260px;
     border-radius: 12px;
+}
+
+@media screen and (max-width:768px) {
+
+    .bandeira {
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .titulo {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .livro {
+
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 2.7px;
+    }
+
+    .capa {
+
+        width: 37%;
+        height: 175px;
+        top: -230px;
+        left: 45px;
+
+    }
+
+    .pag1 {
+        width: 37%;
+        height: 175px;
+        top: -230px;
+        left: 49px;
+    }
+
+    .paginaAnterior {
+
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        left: 10px;
+        position: relative;
+        bottom: 192px;
+    }
+
+    .proximaPagina {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        left: 240px;
+        position: relative;
+        bottom: 255px;
+    }
+
+    .voltar {
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: -190px;
+
+    }
+
+    .curiosidade2 {
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: -160px;
+        border-top: 5px solid yellow;
+        border-radius: 6px;
+
+    }
+
+    .curiosidade {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: -160px;
+        border-bottom: 5px solid yellow;
+        border-radius: 6px;
+        font-size: 21px;
+    }
+
+
+h2{
+
+font-size: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+bottom: 75px;
+
+}
+
 }
