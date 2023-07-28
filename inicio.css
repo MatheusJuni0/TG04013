@@ -1,3 +1,4 @@
+
 body {
     background-image: url(https://st3.depositphotos.com/1912333/14250/i/450/depositphotos_142502785-stock-photo-conqueror-with-a-flag.jpg);
     background-size: cover;
@@ -161,9 +162,12 @@ a {
 
 @media screen and (max-width:768px) {
 
+
     .brasil {
         height: 100%;
-        width: 100%;
+        width: 90%;
+        position: relative;
+        left: 5px;
     }
 
     .simboloTitulo h1 {
@@ -172,7 +176,8 @@ a {
         display: block;
         align-items: center;
         text-align: center;
-
+        position: relative;
+        left: 5px;
     }
 
     .simbolo {
@@ -181,17 +186,18 @@ a {
         top: 350px;
         left: 275px;
         height: 120px;
-
+        opacity: 0%;
     }
 
     .exercito {
-
-        width: 100%;
+        position: relative;
+        width: 90%;
         height: 100%;
+        left: -10px;
     }
 
     .cap {
-
+        opacity: 0%;
         display: block;
         left: -12px;
         width: 150px;
@@ -202,20 +208,19 @@ a {
     .extras span {
 
         font-size: 14px;
-        text-align: center;
         display: block;
         justify-content: center;
         align-items: center;
-        left: 115px;
+        left: 95px;
         position: relative;
     }
 
     .cancoes {
 
-        left: 185px;
+        left: 165px;
         position: relative;
         font-size: 16px;
-        
+
     }
 
     .historico {
@@ -224,9 +229,9 @@ a {
         display: block;
         position: relative;
         font-size: 12px;
-        left: -155px;
+        left: -175px;
         bottom: -125px;
-border-radius: 12px;
+        border-radius: 12px;
 
     }
 
@@ -235,8 +240,8 @@ border-radius: 12px;
         display: flex;
         font-size: 12px;
         bottom: -40px;
-left: 66px;
-border-radius: 12px;
+        left: 50px;
+        border-radius: 12px;
 
     }
 
@@ -248,18 +253,19 @@ border-radius: 12px;
         align-items: center;
         position: relative;
         top: 110px;
+        left: -15px;
     }
 
     .bracoForte {
 
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         display: block;
         justify-content: center;
         align-items: center;
         position: relative;
         top: 110px;
-
+        left: 5px;
     }
 
 }
